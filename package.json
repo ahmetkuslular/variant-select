@@ -1,0 +1,22 @@
+{
+  "name": "variant-select",
+  "version": "1.0.1",
+  "description": "variant-select",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetkuslular/variant-select.git"
+  },
+  "keywords": [
+    "styled-components"
+  ],
+  "author": "Ahmet Kuslular",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmetkuslular/variant-select/issues"
+  },
+  "homepage": "https://github.com/ahmetkuslular/variant-select#readme"
+}
