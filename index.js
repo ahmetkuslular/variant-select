@@ -17,8 +17,13 @@ function theme(name, values) {
 theme.variants = function(prop, values) {
     return function(props) {
         var variant = props[prop] && values[props[prop]];
-        return variant && getThemeValue(props, variant);
+        var defaultVarient = props[prop] && values['default'];
+
+        return variant
+            ? getThemeValue(props, variant)
+            : getThemeValue(props, defaultVarient);
     };
 };
+
 
 module.exports = theme;
